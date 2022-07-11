@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: system-ui;
+  scroll-behavior: smooth;
+}
+
+.page__body {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion) {
+  .page {
+    scroll-behavior: auto;
+  }
+}
