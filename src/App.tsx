@@ -5,7 +5,9 @@ import styles from './App.module.css';
 
 const App: Component = () => {
   return (
-    <h1 class={styles.heading}>Airplane Map!</h1>
+    <For each={}>{(seat, index) =>
+      {index() + 1}: <div class="seat"></div>
+    }</For>
   );
 };
 
