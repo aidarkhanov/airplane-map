@@ -8,7 +8,7 @@ const App: Component = () => {
   const [seats, setSeats] = createSignal(0);
 
   return (
-    <For each={}>{(seat, index) =>
+    <For each={seats()}>{(seat, index) =>
       {index() + 1}: <div class="seat"></div>
     }</For>
   );
