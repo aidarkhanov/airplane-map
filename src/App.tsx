@@ -5,7 +5,7 @@ import logo from './logo.svg';
 import styles from './App.module.css';
 
 const App: Component = () => {
-  const [seats, setSeats] = createSignal(0);
+  const [seats, setSeats] = createSignal<number>(0);
 
   return (
     <For each={seats()}>{(seat, index) =>

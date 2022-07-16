@@ -1,5 +1,5 @@
-.heading {
-  font-size: 2rem;
-  line-height: 1;
-  margin-block: 2rem 0;
+.seat {
+  width: 5rem;
+  height: 5rem;
+  background-color: hotpink;
 }
